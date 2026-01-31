@@ -36,7 +36,8 @@
 
 ## Usage
 
-> **⚠️ Important Note about Catppuccin Latte:** The Latte (light) theme is included in this repository but is **not recommended for use** at this time. Wave Terminal does not currently support a light mode UI—the application interface (icons, sidebars, buttons) is designed exclusively for dark themes. Using Latte will result in poor visibility with white/light-colored UI elements on a white background. See [#609](https://github.com/wavetermdev/waveterm/issues/609) and [#2686](https://github.com/wavetermdev/waveterm/issues/2686) for the ongoing light mode discussion. The Latte theme files are provided for future compatibility once Wave Terminal implements proper light mode support.
+> [!WARNING]
+> **Important Note about Catppuccin Latte:** The Latte (light) theme is included in this repository but is **not recommended for use** at this time. Wave Terminal does not currently support a light mode UI—the application interface (icons, sidebars, buttons) is designed exclusively for dark themes. Using Latte will result in poor visibility with white/light-colored UI elements on a white background. See [#609](https://github.com/wavetermdev/waveterm/issues/609) and [#2686](https://github.com/wavetermdev/waveterm/issues/2686) for the ongoing light mode discussion. The Latte theme files are provided for future compatibility once Wave Terminal implements proper light mode support.
 
 ### Tab Backgrounds
 
