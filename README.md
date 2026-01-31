@@ -36,6 +36,8 @@
 
 ## Usage
 
+> **⚠️ Important Note about Catppuccin Latte:** The Latte (light) theme is included in this repository but is **not recommended for use** at this time. Wave Terminal does not currently support a light mode UI—the application interface (icons, sidebars, buttons) is designed exclusively for dark themes. Using Latte will result in poor visibility with white/light-colored UI elements on a white background. See [#609](https://github.com/wavetermdev/waveterm/issues/609) and [#2686](https://github.com/wavetermdev/waveterm/issues/2686) for the ongoing light mode discussion. The Latte theme files are provided for future compatibility once Wave Terminal implements proper light mode support.
+
 ### Tab Backgrounds
 
 1. Download the background presets from the [`themes/backgrounds/`](themes/backgrounds/) directory, or use one of the methods below:
@@ -60,7 +62,7 @@
 
 1. Download the theme files from the [`themes/terminal/`](themes/terminal/) directory, or use one of the methods below:
 
-   **🌻 Latte**
+   **🌻 Latte** *(Not recommended - see note above)*
    ```bash
    curl -LO --output-dir ~/.config/waveterm/termthemes https://github.com/catppuccin/waveterm/raw/main/themes/terminal/catppuccin-latte.json
    ```
@@ -106,6 +108,26 @@ To set a Catppuccin theme as your default for all new tabs and terminals, add bo
 ```
 
 For more information on Wave Terminal customization, see the [official documentation](https://docs.waveterm.dev/customization).
+
+## FAQ
+
+**Q: "Where is Catppuccin Latte (light theme)? / Why doesn't Latte work properly?"**
+
+**A:** Catppuccin Latte is included in the repository, but it is **not recommended for use** at this time. Wave Terminal does not currently support a light mode UI (see [#609](https://github.com/wavetermdev/waveterm/issues/609) and [#2686](https://github.com/wavetermdev/waveterm/issues/2686)). The entire application interface—including icons, sidebars, and navigation—is designed exclusively for dark themes. Using Latte will result in poor visibility with light-colored UI elements (white icons, light text) on a white/light background, making the interface difficult or impossible to use. The Latte theme files are provided for future compatibility once Wave Terminal implements proper light mode support. Until then, we recommend using one of the three dark flavors: Frappé, Macchiato, or Mocha.
+
+**Q: "Where can I find my Wave Terminal config files?"**
+
+**A:** Wave Terminal stores its configuration files in:
+- **Linux/macOS**: `~/.config/waveterm/`
+- **Windows**: `%USERPROFILE%\.config\waveterm\`
+
+**Q: "The terminal colors don't look right."**
+
+**A:** Make sure you've placed the theme files in the correct `termthemes` directory and that the theme is properly applied via the UI or config file.
+
+**Q: "Can I use different flavors for terminal and background?"**
+
+**A:** Yes! You can mix and match. For example, you could use Mocha for the terminal theme and Frappé for the tab background.
 
 ## 💝 Thanks to
 
